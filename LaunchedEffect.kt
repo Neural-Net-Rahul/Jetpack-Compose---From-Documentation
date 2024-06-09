@@ -71,5 +71,6 @@ fun fetchData():List<String>{
     return listOf("Apple","Banana","Orange");
 }
 
+// Launched Effect => Side Effect Handler 
 // We can call composable functions many times, but we can control the execution of
 // some section inside it to limited number of times/on meeting some condition using LaunchedEffect
