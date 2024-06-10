@@ -69,6 +69,7 @@ fun BlogCategory(img: Int, title: String, subtitle: String) {
 
 @Preview(showBackground = true, heightDp = 500, widthDp = 350)
 @Composable
+// Column with modifier as vertical Scroll() and inside Column apply a for loop => Implementation of List View
 fun PreviewItem() {
     LazyColumn(
         content = {
