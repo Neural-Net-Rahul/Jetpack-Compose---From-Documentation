@@ -70,6 +70,20 @@ fun BlogCategory(img: Int, title: String, subtitle: String) {
 @Preview(showBackground = true, heightDp = 500, widthDp = 350)
 @Composable
 // Column with modifier as vertical Scroll() and inside Column apply a for loop => Implementation of List View
+/*
+fun MyApp() {
+    val state = rememberScrollState();
+    Column(
+        modifier = Modifier.verticalScroll(state).
+        fillMaxSize()
+    ) {
+        for (i in 1..100) {
+            Text(text = "Hello $i",
+            modifier = Modifier.padding(10.dp))
+        }
+    }
+}
+*/
 fun PreviewItem() {
     LazyColumn(
         content = {
