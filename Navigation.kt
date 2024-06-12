@@ -25,7 +25,6 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.exploringjetpackcompose.ui.theme.ExploringJetpackComposeTheme
 
-// Meditation UI using Jetpack Compose
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
